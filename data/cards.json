@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "nombre": "SYNTHA-6 ISOLATE 2,01 LBS",
+      "cantidad": 1,
+      "desc": "Isolate Protein Matrix (Whey Protein Isolate - Milk Protein Isolate)",
+      "precio": 27000,
+      "img": "img/Crash.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "PLATINUM WHEY PROTEIN 2 LBS DOYPACK ",
+      "cantidad": 1,
+      "desc": "Suplemento Dietario a Base de Ultra Concentrado de Proteínas de Suero Lácteo ",
+      "precio": 6000,
+      "img": "img/mortal.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "ZMA 90 CAPSULES - NATURAL NON-HORMONAL FORMULA",
+      "cantidad": 1,
+      "desc": "THE REAL ZMA I NATURAL NON-HORMONAL FORMULA",
+      "precio": 3400,
+      "img": "img/pacman.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "THE REAL ZMA I NATURAL NON-HORMONAL FORMULA",
+      "cantidad": 1,
+      "desc": "uplemento Dietario a Base de 100% L-Arginina",
+      "precio": 2700,
+      "img": "img/dragonball.jpg"
+    },
+    {
+      "id": 5,
+      "nombr": "MTOR BCAA 270 GRS - STRAWBERRY LIME",
+      "cantidad": 1,
+      "desc": "Complejo de Aminoácidos MTOR RATIO 8.1.1",
+      "precio": 4500,
+      "img": "img/naruto.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "CREATINE MONOHYDRATE ULTRAMICRONIZED (CREAPURE) 150 GRS - UNFLAVOR",
+      "cantidad": 1,
+      "desc": "Creatina Monohidrato Micronizada 5 Grs.",
+      "precio": 8500,
+      "img": "img/shingeki.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "PUMP 3D RIPPED 315 GRS - LEMONADE",
+      "cantidad": 1,
+      "desc": "No compres esto por tu bien",
+      "precio": 5800,
+      "img": "img/league.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "JUST PLANT PROTEIN",
+      "cantidad": 1,
+      "desc": " Incrementar la masa muscular magra / Minimizar tiempos de recuperación.",
+      "precio": 6000,
+      "img": "img/callduty.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "JUST CARBS",
+      "cantidad": 1,
+      "desc": "Suplemento Dietario a Base de Maltodextrina 100%",
+      "precio": 1400,
+      "img": "img/fifa.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "ISO WHEY RIPPED",
+      "cantidad": 1,
+      "desc": "Suplemento Dietario a Base de Aislado - Hidrolizado - Ultraconcentrado de Proteínas de Suero Lácteo",
+      "precio": 9700,
+      "img": "img/fornite.jpg"
+    }
+  ]

@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: none;
+    transition: all .2s linear;
+}
+
+:root{
+    --violet:#6939eb;
+    --black:#000000fb;
+    --ligth-c:#b3b3b3;
+    --box-shadow:0 0.5rem 1rem rgba(0,0,0,.1);
+    --border: .2rem solid rgba(0,0,0,.1);
+    --outline: .1rem solid rgba(0,0,0,.1);
+    --outline-hover: .2rem solid var(--black)
+}
+
+
+#contenedor, #contenedorOferta{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.navigation a{
+    margin-left: 1rem;
+}
+
+.imagen{
+    max-width:100%;
+}
+
+a{
+    cursor:pointer;
+}
+.alerta{
+    font-weight:700;
+}
+body{
+    background-color: #E3D8D6;
+    overflow-x: hidden;
+}
+
+body #contenedorSesion{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.modal-contenedor{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+}
+.img-carrito{
+    width:200px;
+    padding:20px;
+} 
+.modal-content{
+    background-color: #E3D8D6;
+}
+.parrafo{
+    font-weight: 900;
+    color: #6939eb;
+}
+#precioTotal{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+.boton{
+    opacity:0;
+
+}
+
+.swiperHero{
+    width: 100%;
+    height: 500px;
+}
+
+.swiperHero img{
+    width: 100%;
+    object-fit: cover;
+}
+.inciarSesion{
+    background-color: #6939eb;
+    padding: 1rem;
+    border-radius: 5%;
+}
+
+.swiperHero .swiper-button-prev, .swiper-button-next{
+    color: var(--violet);
+    background-color: whitesmoke;
+    height: 70px;
+    width: 50px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+
+/* 
+/////////////////////// */
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0px 5px 10px #6939eb ;
+}
+
+form .title{
+    color: black;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+
+form label{
+    margin-bottom: 2rem;
+}
+
+form label .fa-solid{
+    font-size: 1.5rem;
+    color: #6939eb;
+    margin-right: 10px;
+}
+
+form label input{
+    outline: none;
+    border: none;
+    color: black;
+    border-bottom: solid 1px var(--violet);
+    font-size: 2rem;
+}
+
+form label input::placeholder{
+    color: #b3b3b3;
+}
+
+form .link {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+form button{
+    color: black;
+    border: none;
+    background-color:var(--violet);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+
+#cerrar-sesion{
+    background-color: #6939eb;
+    padding: 1rem;
+    border-radius: 5%;
+    display: none;
+}
+
+#logout{
+    display: none;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color: red;
+}
+
+.servicios{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--ligth-c);
+    width: 100%;
+    margin-top: 5px;
+    padding: 1rem;
+}
+
+.tarjetas{
+    text-align: center;
+    width: 200px;
+}
+
+.tarjetas i{
+    padding: 10px;
+}
+
+.tarjetas p{
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+
+.fa-solid{
+    font-size: 3rem;
+}
+
+.ofertas{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.container-fluid{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.invalido{
+    border: 1px solid red;
+}
+
+.mensajeInvalido{
+    text-align: center;
+    color: red;
+    font-size: 15px;
+}
+
+.valido{
+    border:2px solid yellowgreen
+}
+
+
+
+#footer {
+    background: black;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+  }
+
+.containerfo{
+    text-align: center;
+}
